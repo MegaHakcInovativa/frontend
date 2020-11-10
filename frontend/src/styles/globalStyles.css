@@ -6,7 +6,9 @@
 
 
 body{ 
-    color: #ffffff;
     background-color: #ebf2f5;
 }
 
+h1{
+    font-family: 'Baloo Bhaina 2';
+}
