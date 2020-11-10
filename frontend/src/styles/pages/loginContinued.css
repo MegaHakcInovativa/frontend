@@ -60,3 +60,92 @@
 
     text-align: center;
 }
+
+.page-login .content{
+    position: absolute;
+    width: 317px;
+    height: 91.47px;
+    left: 606px;
+    top: 100px;
+}
+
+.page-login .name input{
+    position: absolute;
+    width: 520px;
+    height: 60px;
+    left: 606px;
+    top: 265px;
+
+    background: #FEFEFE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+
+.page-login .name p{
+    position: absolute;
+    left: 618px;
+    top: 225px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    color: #5A5A5A;
+    
+    
+}
+
+
+.page-login .password input{
+    position: absolute;
+    width: 520px;
+    height: 60px;
+    left: 606px;
+    top: 400px;
+    
+    background: #FEFEFE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+
+.page-login .password p{
+    position: absolute;
+    left: 618px;
+    top: 360px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    color: #5A5A5A;
+    
+    
+}
+
+.page-login .create-account{
+    font-family: Roboto;
+    text-decoration: none;
+
+    position: absolute;
+    width: 205px;
+    height: 52px;
+    right: 100px;
+    bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #0ACF83;
+    border-radius: 38px;
+
+    color: #ffffff;
+}
