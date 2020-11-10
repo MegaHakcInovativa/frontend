@@ -1,0 +1,42 @@
+.top-bar header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar header h1{
+    font-family: 'Baloo Bhaina 2';
+    font-size: 64px;
+    line-height: 102px;
+
+    color: #2DC5C9;
+
+}
+
+.top-bar header .hide{
+    width: 159px;
+    height: 40px;
+}
+
+.top-bar header .next{
+    text-decoration: none;
+    background: #0ACF83;
+    border-radius: 38px;
+    width: 159px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Roboto;    
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.top-bar hr{
+    height: 3px;
+    background: #2DC5C9;
+    border: none;
+}
