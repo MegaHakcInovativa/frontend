@@ -1,0 +1,47 @@
+.page-login{
+    width: 100vw;
+    height: 100vh;
+
+    display:flex;
+}
+
+.page-login .content-wrapper{
+    position: relative;
+    color: #ffffff;
+    
+    width: 100%;
+    max-width: 486px;
+
+    height: 100%;
+    max-height: 900px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: #2DC5C9;
+
+    margin: 0;
+
+}
+
+
+#page-login .content-wrapper main{
+    max-width: 100px;
+}
+
+
+#page-login .content-wrapper main h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 102.02px;
+}
+
+#page-login .content-wrapper main p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 104.9%;
+}

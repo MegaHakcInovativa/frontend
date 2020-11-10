@@ -1,10 +1,12 @@
-import './App.css';
+import React from 'react';
+
+import Login from './pages/Login'
+
+import './styles/globalStyles.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Time 7 - inovativa</h1>
-    </div>
+   <Login />
   );
 }
 
