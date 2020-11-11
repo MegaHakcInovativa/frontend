@@ -1,0 +1,33 @@
+.question .content-wrapper .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+
+    margin-bottom: 30px;
+}
+
+
+.question .content-wrapper .botoes{
+    margin: auto 25%;
+
+}
+
+.question .content-wrapper .botoes button{
+    font-family: Roboto;
+    width: 172px;
+    height: 42px;
+
+    padding: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+
+    margin:  10px;
+}
+
+.question .content-wrapper .botoes button.active{
+    background: #2DC5C9;
+    color: #ffffff;
+}
+
