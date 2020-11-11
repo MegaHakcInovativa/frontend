@@ -7,6 +7,8 @@ import TopBar from './pages/components/topBar/TopBar';
 import QuestionOne from './pages/questions/QuestionsOne';
 import QuestionTwo from './pages/questions/QuestionTwo';
 import QuestionThree from './pages/questions/QuestionThree';
+import User from './pages/User';
+import SideBar from './pages/components/sideBar/SideBar';
 
 function Routes (){
     return(
@@ -14,10 +16,12 @@ function Routes (){
             <Switch>
                 <Route path='/' exact component={Login} />
                 <Route path='/login' component={LoginContinued} />
-                <Route path='/ola' component={TopBar} />
+                <Route path='/ola' component={TopBar} /> {/* essa rota n aparecea não ser q digite o endereo dela */}
+                <Route path='/ola2' exact component={SideBar} /> 
                 <Route path='/first' component={QuestionOne} />
                 <Route path='/second' component={QuestionTwo} />
                 <Route path='/thirth' component={QuestionThree} />
+                <Route path='/user' component={User} />
             </Switch>
         </BrowserRouter>
     )

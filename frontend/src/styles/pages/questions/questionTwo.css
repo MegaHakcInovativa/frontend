@@ -10,12 +10,14 @@
 
 
 .question .content-wrapper .botoes{
+    width: 50%;
     margin: auto 25%;
-
+    display: flex; 
+    align-items: center;
 }
 
 .question .content-wrapper .botoes button{
-    font-family: Roboto;
+    font-family: 'Roboto';
     width: 172px;
     height: 42px;
 
