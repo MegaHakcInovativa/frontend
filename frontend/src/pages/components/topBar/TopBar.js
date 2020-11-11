@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 
 import './topBar.css'
 
+// Quando for usar o elemento passar a propriedade width com um numero e a propriedade to que vai indicar pra onde ela vai quando clicar em avançar
+
+
 function TopBar(props){
     return(
         <div className='top-bar'>
@@ -10,7 +13,7 @@ function TopBar(props){
         <header>
             <Link to='/' className='hide'></Link>
             <h1>In.</h1>
-            <Link to='/' className='next'>Avançar</Link>
+            <Link to={props.to} className='next'>Avançar</Link>
         </header>
         <hr width={props.width}/>
         </div>

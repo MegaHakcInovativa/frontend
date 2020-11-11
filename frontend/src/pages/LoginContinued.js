@@ -29,8 +29,8 @@ function LoginContinued (){
             </div>
             
                 <p>Li e concordo com os termos de uso</p>
-                
-            <Link to='/' className='create-account'>Criar conta</Link>
+
+            <Link to='/first' className='create-account'>Criar conta</Link>
         </div>
     )
 }
