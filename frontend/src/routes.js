@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Login from './pages/Login';
-import LoginContinued from './pages/LoginContinued';
+import Login from './pages/login/Login';
+import LoginContinued from './pages/login/LoginContinued';
 import TopBar from './pages/components/topBar/TopBar';
 import QuestionOne from './pages/questions/QuestionsOne';
 import QuestionTwo from './pages/questions/QuestionTwo';

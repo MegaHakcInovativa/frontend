@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineMail }  from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-import '../styles/pages/login.css'
+import '../../styles/pages/login.css'
 
 function Login(){
     return(

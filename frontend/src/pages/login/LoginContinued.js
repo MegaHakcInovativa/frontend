@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import '../styles/pages/loginContinued.css'
+import '../../styles/pages/loginContinued.css'
 
 function LoginContinued (){
     return(
