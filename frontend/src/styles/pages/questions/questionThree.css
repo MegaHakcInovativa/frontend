@@ -1,0 +1,21 @@
+.question .content-wrapper .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.question .content-wrapper .botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question .content-wrapper .botoes button{
+    width: 94px;
+    height: 94px;
+
+    background: #2DC5C9;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 90px;
+}

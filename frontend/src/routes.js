@@ -6,6 +6,7 @@ import LoginContinued from './pages/LoginContinued';
 import TopBar from './pages/components/topBar/TopBar';
 import QuestionOne from './pages/questions/QuestionsOne';
 import QuestionTwo from './pages/questions/QuestionTwo';
+import QuestionThree from './pages/questions/QuestionThree';
 
 function Routes (){
     return(
@@ -16,6 +17,7 @@ function Routes (){
                 <Route path='/ola' component={TopBar} />
                 <Route path='/first' component={QuestionOne} />
                 <Route path='/second' component={QuestionTwo} />
+                <Route path='/thirth' component={QuestionThree} />
             </Switch>
         </BrowserRouter>
     )
