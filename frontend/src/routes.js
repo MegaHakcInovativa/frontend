@@ -16,12 +16,14 @@ function Routes (){
             <Switch>
                 <Route path='/' exact component={Login} />
                 <Route path='/login' component={LoginContinued} />
-                <Route path='/ola' component={TopBar} /> {/* essa rota n aparecea não ser q digite o endereo dela */}
-                <Route path='/ola2' exact component={SideBar} /> 
                 <Route path='/first' component={QuestionOne} />
                 <Route path='/second' component={QuestionTwo} />
                 <Route path='/thirth' component={QuestionThree} />
                 <Route path='/user' component={User} />
+                
+                {/* Rotas para teste */}
+                <Route path='/ola' component={TopBar} /> {/* essa rota n aparecea não ser q digite o endereo dela */}
+                <Route path='/ola2' exact component={SideBar} /> 
             </Switch>
         </BrowserRouter>
     )
