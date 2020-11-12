@@ -6,7 +6,7 @@ import UserIcon from './components/userIcon/UserIcon';
 function User(){
     return(
        <div className='user-area'>
-            <SideBar />
+            <SideBar logo = {false}/>
             <UserIcon />
             <div className='welcome'>
                 <h1>Olá, nome da startup</h1>

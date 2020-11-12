@@ -1,7 +1,7 @@
 .side {
     position: absolute;
     margin: 10px 30px;
-    background-color: #2Dc5c9;
+    background-color: #343AB5;
     color: #ffffff;
 
     width: 100px;
@@ -17,17 +17,15 @@
     text-align: center;
 }
 
-.size .logo{
-    position: absolute;
-    width: 73px;
-    height: 102px;
-    
-    margin-top: 39.67px;
+.side .logo a{
+   
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .side .logo h1{
-    font-family: 'Baloo Bhaina 2';
-    font-size: 64px;
+    font-family: 'Rubik';
+    font-size: 54px;
     line-height: 102px;
 }
 

@@ -8,7 +8,6 @@
 .page-login .content-wrapper{
     position: relative;
     color: #ffffff;
-    
     width: 100%;
     max-width: 486px;
 
@@ -19,7 +18,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #2DC5C9;
+    background: #343AB5;
 
     /* margin: 0; */
 
@@ -66,7 +65,7 @@
     width: 317px;
     height: 91.47px;
     left: 606px;
-    top: 214px;
+    top: 150px;
 }
 
 .page-login .email input{

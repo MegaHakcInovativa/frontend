@@ -5,13 +5,25 @@ import { GiGraduateCap } from 'react-icons/gi'
 import { MdPersonOutline } from 'react-icons/md'
 import { FiSettings, FiLogOut } from 'react-icons/fi'
 
+import logo from '../../../assets/img/logo.svg'
+
 import './sideBar.css'
 
-function SideBar(){
+function SideBar(props){
     return(
         <div className='side'>
             <div className='logo'>
-                <h1>In.</h1>
+                {props.logo?
+                (
+                    <Link to='/user'>
+                        <img src={logo} alt='logo' size ={62} />
+                    </Link>
+                ):
+                (
+                   <Link to ='/user'>
+                       <h1>elo</h1>
+                   </Link> 
+                )}
             </div>
 
             <div className='icons'>

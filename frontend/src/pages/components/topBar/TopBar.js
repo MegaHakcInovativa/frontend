@@ -12,7 +12,7 @@ function TopBar(props){
 
         <header>
             <Link to='/' className='hide'></Link>
-            <h1>In.</h1>
+            <h1>elo</h1>
             <Link to={props.to} className='next'>Avançar</Link>
         </header>
         <hr width={props.width}/>

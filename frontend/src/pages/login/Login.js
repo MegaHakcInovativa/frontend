@@ -9,8 +9,8 @@ function Login(){
         <div className='page-login'>
             <div className='content-wrapper'>
                 <main>
-                    <h1>In.</h1>
-                    <p>Frase sobre a nossa ideia</p>
+                    <h1>elo</h1>
+                    <p>Unindo pessoas e ideias</p>
                 </main>
             </div>
 
@@ -21,7 +21,7 @@ function Login(){
 
             <div className='email'>
                 <p>Email</p>
-                <input type='text'  />
+                <input type='text' />
             </div>
 
             <Link to='/login' className='enter-login'>Avançar</Link>

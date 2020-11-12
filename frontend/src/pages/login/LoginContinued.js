@@ -8,8 +8,8 @@ function LoginContinued (){
         <div className='page-login'>
             <div className='content-wrapper'>
                 <main>
-                    <h1>In.</h1>
-                    <p>Frase sobre a nossa ideia</p>
+                    <h1>elo</h1>
+                    <p>Unindo pessoas e ideias</p>
                 </main>
             </div>
 
