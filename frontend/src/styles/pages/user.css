@@ -1,19 +1,21 @@
 .user-area{
     position: relative;
     font-family: 'Open Sans';
+    
 }
 
 .user-area .welcome{
     position: absolute;
 
     margin-top: 108px;
-    margin-left: 236px;
+    margin-left: 150px;
 }
 
 .user-area .planing{
     position: absolute;
 
     margin: 214px 236px;
+    margin-left: 150px;
 
     line-height: 40px;
 }
@@ -92,3 +94,46 @@
     font-size: 24px;
 }
 
+.user-area .info{
+
+    position: absolute;
+    right: 20px;
+    margin-top: 100px;
+}
+
+.user-area .info .project{
+
+    display: flex;
+}
+
+.user-area .info .project div{
+    background-color: #f5f5f7;
+    
+    width: 208px;
+    height: 96.33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 14px;
+    
+    margin: auto 15px ;
+    
+}
+
+.user-area .info .project div h1{
+    font-size: 64px;
+}
+
+.user-area .info .project div h3{
+    font-size: 16px;
+    max-width: 108px;
+}
+
+.user-area .info .advance{
+
+}
+
+.user-area .info .advance h2{
+    margin-top: 25px;
+}

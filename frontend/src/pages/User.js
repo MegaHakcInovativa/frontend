@@ -3,6 +3,7 @@ import React from 'react';
 import SideBar from './components/sideBar/SideBar'
 import UserIcon from './components/userIcon/UserIcon';
 import Courses from './components/courses/Courses';
+import graphic from '../assets/img/grafico.svg'
 
 import '../styles/pages/user.css'
 
@@ -36,6 +37,30 @@ function User(){
                 <Courses name='Modelagem e Validação da Proposta de Valor ' time='6h 30min' avaliation ={4.9} />
                 <Courses name='Modelagem financeira' time='5h 45min' avaliation={3.5} />
                 <Courses name='Acesso ao merado' time='5h 00min' avaliation={4.0} />
+            </div>
+
+            <div className='info'>
+                <div className='project'>
+                    <div>
+                        <h1>11</h1>
+                        <h3>Cursos</h3>
+                    </div>
+
+                    <div>
+                        <h1>4</h1>
+                        <h3>Planejamentos em andamento </h3>
+                    </div>
+                </div>
+
+                <div className='advance'>
+                    <h2>Avanço</h2>
+                    <div className='graphic'>
+                    <h3>Horas</h3>
+                    <h3 style={'opacity: 0.8;'}>Meus Cursos</h3>
+                    </div>
+                    <img src={graphic} alt='grafico'/>
+                </div>
+
 
             </div>
 
