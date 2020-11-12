@@ -3,6 +3,8 @@ import React from 'react';
 import SideBar from './components/sideBar/SideBar'
 import UserIcon from './components/userIcon/UserIcon';
 
+import '../styles/pages/user.css'
+
 function User(){
     return(
        <div className='user-area'>
