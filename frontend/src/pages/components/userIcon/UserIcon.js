@@ -9,10 +9,10 @@ import UserPicture from '../../../assets/img/ProfilePicture.svg'
 function UserIcon (){
     return(
         <div className='user'>
-            <Link tp=''>
+            <Link t0=''>
                 <FiBell size={30.63} />
             </Link>
-            <Link to =''>
+            <Link to ='/perfil'>
                 <img src={UserPicture} alt='user image' />
             </Link>
 
