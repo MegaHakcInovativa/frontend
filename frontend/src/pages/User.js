@@ -3,7 +3,10 @@ import React from 'react';
 import SideBar from './components/sideBar/SideBar'
 import UserIcon from './components/userIcon/UserIcon';
 import Courses from './components/courses/Courses';
+
+//img
 import graphic from '../assets/img/grafico.svg'
+import mentoria from '../assets/img/mentoria.svg'
 
 import '../styles/pages/user.css'
 
@@ -55,11 +58,18 @@ function User(){
                 <div className='advance'>
                     <h2>Avanço</h2>
                     <div className='graphic'>
-                    <h3>Horas</h3>
-                    <h3 style={'opacity: 0.8;'}>Meus Cursos</h3>
+                        <div className='information'>
+                            <h3>Horas</h3>
+                            <h3>Meus Cursos</h3>
+                        </div>
+                        <h3>Semana</h3>
                     </div>
                     <img src={graphic} alt='grafico'/>
                 </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img src={mentoria} alt='mentoria' />
 
 
             </div>
