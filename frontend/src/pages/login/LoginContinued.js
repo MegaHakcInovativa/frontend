@@ -9,26 +9,30 @@ function LoginContinued (){
             <div className='content-wrapper'>
                 <main>
                     <h1>elo</h1>
-                    <p>Unindo pessoas e ideias</p>
+                    <h2>Unindo<br/> pessoas e ideias</h2>
                 </main>
             </div>
 
             <div className='content'>
                 <h2>Quase lá</h2>
-                <p>Nos diga como podemos chamar você e crie uma senha segura para acessar a conta..</p>
-            </div>
+                <p>Nos diga como podemos chamar você e crie uma senha segura para acessar a conta.</p>
 
-            <div className='name'>
-                <p>Nome:</p>
-                <input type='text'  />
-            </div>
+                <div className='name'>
+                    <p>Nome:</p>
+                    <input type='text'  />
+                </div>
 
-            <div className='password'>
-                <p>Senha:</p>
-                <input type='text'  />
+                <div className='password'>
+                    <p>Senha:</p>
+                    <input type='text'  />
+                </div>
+
+                <div className='terms'>
+                    <input type="checkbox" id="terms" name="terms"/>
+                    <label for="terms"><strong>Li e concordo com os termos de uso</strong></label>
+                </div>  
+
             </div>
-            
-                <p>Li e concordo com os termos de uso</p>
 
             <Link to='/first' className='create-account'>Criar conta</Link>
         </div>
