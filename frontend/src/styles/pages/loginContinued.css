@@ -115,3 +115,8 @@
 
     color: #ffffff;
 }
+
+.page-login .create-account:hover{
+    background-color: #e75e14;
+    color: #ffffffd3;
+}

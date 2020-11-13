@@ -94,3 +94,8 @@
 
     color: #ffffff;
 }
+
+.page-login .enter-login:hover{
+    background-color: #e75e14;
+    color: #ffffffd3;
+}
