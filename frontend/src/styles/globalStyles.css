@@ -19,7 +19,7 @@ h2, h3, h4, h5 {
     font-weight: 700;
 }
 
-p, li, input, label {
+p, li, input, label, button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
