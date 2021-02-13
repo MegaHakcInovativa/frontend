@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import TopBar from '../components/topBar/TopBar';
 
-import '../../styles/pages/questions/questionTwo.css'
+import '../../styles/pages/questions/questionTwo.css';
 
 function QuestionTwo(){
 
   const [habilities, setHabilities] = useState([])
-  const [hability, setHability] = useState(false)
+  const [hability, setHability] = useState()
 
   return(
     <div className='question'>
@@ -20,7 +20,7 @@ function QuestionTwo(){
 
         <div className='botoes'>
 
-            <button type='button' className={!hability? 'active' : ''} onClick={()=> setHabilities('Desing')}>Desing</button>
+            <button type='button'className={!hability? 'active' : ''} onClick={()=> setHabilities('Desing')}>Desing</button>
             <button type='button'className={hability? 'active' : ''}onClick={()=> setHabilities('Marketing')}>Marketing</button>
             <button type='button'className={hability? 'active' : ''}onClick={()=> setHabilities('Negócios')}>Negócios</button>
             <button type='button'className={hability? 'active' : ''}onClick={()=> setHabilities('Desenvolvedor')}>Desenvolvedor</button>

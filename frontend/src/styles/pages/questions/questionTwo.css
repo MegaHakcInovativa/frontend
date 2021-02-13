@@ -10,22 +10,27 @@
 
 
 .question .content-wrapper .botoes{
-    width: 50%;
-    margin: auto 25%;
-    display: flex; 
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .question .content-wrapper .botoes button{
-    font-family: 'Roboto';
     width: 172px;
     height: 42px;
 
+    margin:  10px;
     padding: 10px;
+    
+    border: none;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 
-    margin:  10px;
+    cursor: pointer;
+}
+
+.question .content-wrapper .botoes button:hover{
+    background-color: #2dc4c950;
 }
 
 .question .content-wrapper .botoes button.active{
